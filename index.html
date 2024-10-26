@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natura Avon Luzmery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .info-section, .contact-info, .form-section {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            background-color: #f9f9f9;
+        }
+        .info-section {
+            margin-bottom: 30px;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .form-section h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="text-center">Emprende tu Negocio Natura Avon</h1>
+    </header>
+    <p>Te doy la bienvenida a la Consultoría de Belleza Natura Avon. Soy Luzmery Lugo líder de negocios de Natura Avon, quiero ser parte de tu crecimiento como consultora, mi propósito es que aceptes ser parte de mi grupo, con mi apoyo podrás potencializar tus ganancias y convertirte en una consultora ejemplar, permíteme ser tu guía para emprender tu camino en este nuevo proyecto personal.</p>
+
+    <div class="container">
+        <div class="row">
+            <!-- Sección de información y contacto -->
+            <div class="col-md-6">
+                <div class="info-section">
+                    <h2>Indicadores para entender sobre tu nuevo negocio Natura Avon:</h2>
+                    <nav>
+                        <ol>
+                            <li><a href="primpasos.html">Primeros pasos en tu negocio</a></li>
+                            <li><a href="tuplan.html">Tu plan de ganancias</a></li>
+                            <li><a href="herramientas.html">Conoce las Herramientas Digitales</a></li>
+                        </ol>
+                    </nav>
+                </div>
+                
+                <div class="contact-info">
+                    <h2>Información de contacto y personal</h2>
+                    <p>Nombre completo: Luzmery Lugo Gaviria</p>
+                    <p>Cargo: Líder de Negocio</p>
+                    <p>Experiencia: 1 año como líder Natura Avon. Anteriormente fui líder de AVON durante 5 años, y ahora formo parte de la gerencia Sabor, Sector Mango.</p>
+                    <p>Email: <a href="mailto:luzmerylugogaviria@gmail.com">luzmerylugogaviria@gmail.com</a></p>
+                    <p>Teléfono: 312 736 7143</p>
+                    <img src="louvre.jpg" alt="Lider" class="img-fluid"> 
+                </div>
+            </div>
+
+            <!-- Sección del formulario de contacto -->
+            <div class="col-md-6">
+                <div class="form-section">
+                    <h2>Formulario de contacto</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Ingrese su nombre</label>
+                            <input type="text" class="form-control" placeholder="Escribe tu nombre" maxlength="10" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="apelli">Ingrese su Apellido</label>
+                            <input type="text" class="form-control" placeholder="Escribe tu apellido" maxlength="10" id="apelli" name="apelli" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="numr">Ingrese su número de celular</label>
+                            <input type="tel" class="form-control" placeholder="Escribe tu Nº de celular" maxlength="10" id="numr" name="numr" pattern="[0-9]{10}" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Ingrese su Email</label>
+                            <input type="email" class="form-control" placeholder="Escribe tu email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="direc">Ingrese su dirección</label>
+                            <textarea class="form-control" placeholder="Escriba su dirección" maxlength="20" id="direc" name="direc" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="muni">Ingrese su municipio</label>
+                            <select class="form-control" name="muni" id="muni" required>
+                                <option value="">Seleccione</option>
+                                <option value="Montería">Montería</option>
+                                <option value="Cerete">Cerete</option>
+                                <option value="San Pelayo">San Pelayo</option>
+                                <option value="Cienega de Oro">Cienega de Oro</option>
+                                <option value="Tierra Alta">Tierra Alta</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Sexo</label><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="sex" value="Mas" required>
+                                <label class="form-check-label">Masculino</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="sex" value="fem" required>
+                                <label class="form-check-label">Femenino</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>CC Nacional</label><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="Si" value="op">
+                                <label class="form-check-label">Sí</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="No" value="op">
+                                <label class="form-check-label">No</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar datos</button>
+                        <button type="reset" class="btn btn-secondary">Resetear</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center mt-4">
+        <p>Todos los derechos reservados @natura | www.natura.com.co | 2024 Natura Colombia</p>
+    </footer>
+</body>
+</html>

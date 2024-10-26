@@ -1,0 +1,56 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f9e1cf;
+   color: #333;
+   margin: 0;
+   padding: 0;
+}
+
+p {
+   font-family: Arial, sans-serif;
+   color: #0c0c0c;
+   margin: 20px;
+   line-height: 1.5;
+}
+
+h2 {
+   font-family: Arial, sans-serif;
+   color: #302a2a;
+   margin: 10px;
+   line-height: 1.2;
+}
+
+header {
+   background: linear-gradient(to right, orange, #e21145);
+   text-align: center;
+   color: rgb(31, 30, 30);
+   padding: 10px 0;
+}
+
+footer {
+   background-color: #d41646;
+   color: #fff;
+   text-align: center;
+   padding: 10px 0;
+   width: 100%;
+   bottom: 0;
+}
+
+.info-section, .contact-info {
+   padding: 20px;
+   background-color: #f1f1f1;
+   border-radius: 8px;
+   margin-bottom: 15px;
+}
+
+.form-section {
+   padding: 20px;
+   background-color: #e8e8e8;
+   border-radius: 8px;
+}
+
+.form-section .form-group label {
+   font-weight: bold;
+}
+
+
